@@ -4,7 +4,7 @@ import { useChatStore } from "../../../lib/chatStore";
 import { db } from "../../../lib/firebase";
 import { useUserStore } from "../../../lib/userStore";
 import "./ChatList.css";
-import AddUser from "./addUser/addUser";
+import AddUser from "./addUser/AddUser";
 
 //Chat List
 const ChatList = () => {
